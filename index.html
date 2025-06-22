@@ -103,6 +103,34 @@
       font-size: 0.85rem;
       color: #666;
     }
+        .footer-subsection {
+      padding: 1rem 0;
+      background: #f1f2f6;
+      color: #444;
+    }
+
+    .footer-subsection p {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .footer-logos img {
+      height: 30px;
+      opacity: 0.8;
+      transition: opacity 0.3s;
+    }
+
+    .footer-logos img:hover {
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -158,6 +186,26 @@
     </div>
     <div style="background: #f1f2f6; text-align: center; padding: 1rem; font-size: 0.85rem; color: #666;">
       &copy; 2025 RegDesk.org. Built by AI Compliance Partners. All rights reserved.
+    </div>
+        <div class="footer-subsection">
+      <p>Interface categories we support:</p>
+      <div class="footer-logos">
+        <a class="logo-link" href="https://twitter.com" target="_blank">
+          <img src="twitter.png" alt="Twitter Logo" />
+        </a>
+        <a class="logo-link" href="https://www.linkedin.com" target="_blank">
+          <img src="linkedin.png" alt="LinkedIn Logo" />
+        </a>
+        <a class="logo-link" href="https://www.finra.org" target="_blank">
+          <img src="finra.png" alt="FINRA Logo" />
+        </a>
+        <a class="logo-link" href="https://www.sec.gov" target="_blank">
+          <img src="sec.png" alt="SEC Logo" />
+        </a>
+        <a class="logo-link" href="https://www.nasaa.org" target="_blank">
+          <img src="nasaa.jpg" alt="NASAA Logo" />
+        </a>
+      </div>
     </div>
   </footer>
 </body>
